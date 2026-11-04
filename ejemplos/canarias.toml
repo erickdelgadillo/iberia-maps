@@ -1,0 +1,22 @@
+# Prueba de selección automática de los datos insulares, sin estaciones inventadas.
+[mapa]
+titulo = "Canarias · costa, batimetría y relieve"
+oeste = -18.3
+este = -13.3
+sur = 27.5
+norte = 29.5
+[datos]
+carpeta = "../../iberia-maps-data"
+batimetria = "auto"
+costa = "auto"
+relieve = "auto"
+[estilo]
+profundidad_max = 5000
+altitud_max = 3800
+isobatas = false
+[acercamiento]
+activar = false
+[salida]
+carpeta = "../salidas"
+nombre = "canarias"
+ppp = 300

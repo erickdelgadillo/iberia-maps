@@ -1,0 +1,28 @@
+[mapa]
+titulo = "Galicia · costa, batimetría y relieve"
+oeste = -9.6
+este = -6.6
+sur = 41.7
+norte = 43.9
+
+[datos]
+carpeta = "../../iberia-maps-data"
+batimetria = "auto"
+costa = "auto"
+relieve = "auto"
+
+[puntos]
+csv = "estaciones.csv"
+
+[acercamiento]
+activar = false
+
+[estilo]
+profundidad_max = 2500
+altitud_max = 2200
+isobatas = false
+
+[salida]
+carpeta = "../salidas"
+nombre = "galicia"
+ppp = 300

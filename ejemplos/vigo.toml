@@ -1,0 +1,43 @@
+# Cambia los límites y las estaciones; no hace falta editar Python.
+# Las rutas se resuelven desde ESTA carpeta, no desde donde ejecutas el comando.
+[mapa]
+titulo = "Ría de Vigo"
+oeste = -9.00
+este = -8.56
+sur = 42.10
+norte = 42.36
+
+[datos]
+carpeta = "../../iberia-maps-data"
+batimetria = "auto"
+costa = "auto"
+# Cambia a "auto" para colorear el terreno con altitud:
+relieve = false
+
+[[estaciones]]
+nombre = "Estación central"
+lat = "42° 14.09′ N"
+lon = "8° 47.18′ W"
+
+# Alternativa: estaciones desde CSV (se pueden combinar con las anteriores).
+# [puntos]
+# csv = "estaciones.csv"
+
+[acercamiento]
+activar = true
+estacion = "Estación central"
+ancho_km = 4.0
+
+[estilo]
+profundidad_max = 150
+isobatas = true
+isobatas_cada = 20
+etiquetas = true
+color_puntos = "#b62025"
+escala = true
+azules = ["#08306b", "#2171b5", "#bdd7ee"]
+
+[salida]
+carpeta = "../salidas"
+nombre = "vigo"
+ppp = 300

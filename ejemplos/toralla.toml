@@ -1,0 +1,22 @@
+# Demostración de entrada DMS; no confundir este punto con la estación central.
+[mapa]
+titulo = "Toralla · coordenadas originales"
+oeste = -8.84
+este = -8.74
+sur = 42.17
+norte = 42.24
+[datos]
+batimetria = "../../iberia-maps-data/batimetria/vigo_resolucion_original_LAT.nc"
+costa = "../../iberia-maps-data/costa/costa_pleamar_espana.geojson"
+[[estaciones]]
+nombre = "Toralla"
+lat = "42° 12′ 7.081″ N"
+lon = "8° 47′ 53.830″ W"
+[acercamiento]
+activar = true
+estacion = "Toralla"
+ancho_km = 2.0
+[salida]
+carpeta = "../salidas"
+nombre = "toralla"
+ppp = 300
